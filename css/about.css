@@ -1,0 +1,190 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  height: 100%;
+  background-color: 003c4b;
+  color: d2513f;
+}
+h1 {
+  font-family: staatliches, arial;
+  font-size: 5rem;
+}
+h3 {
+  font-family: montserrat, monospace;
+  font-size: 2.5rem;
+}
+p {
+  font-family: montserrat, monospace;
+  font-size: 1.8rem;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5% 0 0 5%;
+  align-items: left;
+  flex: 0 0 auto;
+}
+.pictures {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5%;
+}
+.pictures .portrait {
+  width: 75%;
+  height: auto;
+  box-shadow: 10px 10px 5px 01181e;
+}
+@media (max-width: 500px) {
+  .pictures .portrait {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    height: auto;
+  }
+  .pictures .portrait p {
+    width: 100%;
+    margin: 0;
+    text-align: left;
+  }
+}
+.imgWithCaption {
+  margin-right: 5%;
+  padding-top: 5%;
+}
+.imgCaption {
+  align-items: left;
+  padding-top: 5%;
+}
